@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyAppC</string>
+    <string name="app_title">Calculatrice</string>
+    <string name="app_indecMont">Montant en Euro</string>
+    <string name="app_txtButtonE">Add</string>
+    <string name="app_txtButtonU">Sub</string>
+    <string name="app_txtButtonB">Btc >> MAD</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

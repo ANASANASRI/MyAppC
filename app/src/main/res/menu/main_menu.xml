@@ -11,7 +11,7 @@
             android:id="@+id/galerie"/>
         <item
             android:title="Calcul"
-            android:icon="@drawable/baseline_monetization_on_24"
+            android:icon="?attr/actionModePasteDrawable"
             android:id="@+id/calcul"/>
     </group>
 

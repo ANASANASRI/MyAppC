@@ -14,20 +14,15 @@ import android.widget.TextView;
 
 public class CalculFragment extends Fragment {
 
-    private EditText nbr;
-
-    private Button btnConvE;
-    private Button btnConvU;
-    private Button btnConvB;
+    private EditText num1;
+    private EditText num2;
+    private Button add;
+    private Button sub;
     private TextView result;
-
-
 
     public CalculFragment() {
         // Required empty public constructor
     }
-
-
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -40,27 +35,26 @@ public class CalculFragment extends Fragment {
         // Inflate the layout for this fragment
         View cnv = inflater.inflate(R.layout.fragment_calcul, container, false);
 
-        nbr = cnv.findViewById(R.id.montantEuro);
-        btnConvE = cnv.findViewById(R.id.buttonEuro);
-        btnConvU = cnv.findViewById(R.id.buttonUsd);
-        btnConvB = cnv.findViewById(R.id.buttonBtc);
+        num1 = cnv.findViewById(R.id.num1);
+        num2 = cnv.findViewById(R.id.num2);
+        add = cnv.findViewById(R.id.add);
+        sub = cnv.findViewById(R.id.sub);
         result = cnv.findViewById(R.id.result);
 
-        btnConvE.setOnClickListener(v ->{
-            float mt = Float.parseFloat(nbr.getText().toString());
-            float mad = mt*11.03f;
-            result.setText(String.format("%.2f MAD", mad));
+        add.setOnClickListener(v ->{
+            float n1 = Float.parseFloat(num1.getText().toString());
+            float n2 = Float.parseFloat(num2.getText().toString());
+            float sum = n1 + n2;
+            result.setText(String.format("%.2f", sum));
         });
-        btnConvU.setOnClickListener(v ->{
-            float mt = Float.parseFloat(nbr.getText().toString());
-            float mad = mt*10.11f;
-            result.setText(String.format("%.2f MAD", mad));
+
+        sub.setOnClickListener(v ->{
+            float n1 = Float.parseFloat(num1.getText().toString());
+            float n2 = Float.parseFloat(num2.getText().toString());
+            float diff = n1 - n2;
+            result.setText(String.format("%.2f", diff));
         });
-        btnConvB.setOnClickListener(v ->{
-            float mt = Float.parseFloat(nbr.getText().toString());
-            float mad = mt*286865.98f;
-            result.setText(String.format("%.2f MAD", mad));
-        });
+
         return cnv;
     }
 }

@@ -22,14 +22,14 @@
             android:layout_width="169dp"
             android:layout_height="wrap_content"
             android:fontFamily="@font/oswald"
-            android:text="Store Name"
+            android:text="AA and IG"
             android:textColor="@color/white"
             android:textSize="32dp"
             android:textStyle="italic" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Comp Name"
+            android:text="Group 3"
             android:textColor="@color/white"
             android:textSize="15dp" />
 

@@ -7,7 +7,7 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:padding="20dp"
-    android:background="#000000">
+    android:background="#F6F1F1">
 
 
     <LinearLayout
@@ -16,7 +16,7 @@
 
         android:orientation="horizontal"
         android:padding="20dp"
-        android:background="#000000">
+        android:background="#F6F1F1">
 
         <Button
             android:id="@+id/button"
@@ -46,13 +46,13 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:padding="20dp"
-        android:background="#000000">
+        android:background="#F6F1F1">
         <androidx.cardview.widget.CardView
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
 
-            android:backgroundTint="@color/black">
+            android:backgroundTint="#F6F1F1">
             <com.google.android.material.imageview.ShapeableImageView
                 android:layout_width="100dp"
                 android:id="@+id/p1"
@@ -60,7 +60,7 @@
                 android:scaleType="centerCrop"
                 app:shapeAppearance="@style/circularImage"
                 app:srcCompat="@drawable/p1"
-                android:background="#000000" />
+                android:background="#F6F1F1" />
 
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
@@ -70,7 +70,7 @@
             android:layout_marginRight="5dp"
             android:layout_marginLeft="5dp"
 
-            android:backgroundTint="@color/black">
+            android:backgroundTint="#F6F1F1">
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/p2"
                 android:layout_width="100dp"
@@ -86,14 +86,14 @@
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
-            android:backgroundTint="@color/black">
+            android:backgroundTint="#F6F1F1">
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/p3"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:scaleType="centerCrop"
                 app:shapeAppearance="@style/circularImage"
-                android:background="#000000"
+                android:background="#F6F1F1"
                 app:srcCompat="@drawable/p3"
                 />
 

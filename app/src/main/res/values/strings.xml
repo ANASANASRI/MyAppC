@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">MyAppC</string>
     <string name="app_title">Calculatrice</string>
-    <string name="app_indecMont">Montant en Euro</string>
+    <string name="app_indecMont">Number</string>
     <string name="app_txtButtonE">Add</string>
     <string name="app_txtButtonU">Sub</string>
     <string name="app_txtButtonB">Btc >> MAD</string>

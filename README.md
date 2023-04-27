@@ -1,5 +1,7 @@
 # MyAppC
-## Controle Android
+## ANAS ANASRI ET ILYASSE GHAZOUNI
+### GROUP 3
+### Controle Android
 
 <p float="left">
   <img src="app/src/main/res/screens/im3.jpg" width="400" />

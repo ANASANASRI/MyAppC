@@ -1,5 +1,5 @@
 # MyAppC
-## ANAS ANASRI ET ILYASSE GHAZOUNI
+## ANAS ANASRI et ILYASSE GHAZOUNI
 ### GROUP 3
 ### Controle Android
 
